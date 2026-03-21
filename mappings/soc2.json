@@ -1,0 +1,55 @@
+{
+  "framework": "SOC 2",
+  "version": "Trust Services Criteria (2017)",
+  "source": "https://www.aicpa.org/",
+  "controls": [
+    {
+      "id": "CC6.1",
+      "title": "Logical and Physical Access Controls",
+      "description": "The entity implements logical access security software, infrastructure, and architectures over protected information assets.",
+      "cwes": ["CWE-250", "CWE-269", "CWE-276", "CWE-284", "CWE-285", "CWE-287", "CWE-306", "CWE-639", "CWE-732", "CWE-862", "CWE-863"]
+    },
+    {
+      "id": "CC6.2",
+      "title": "User Authentication",
+      "description": "Prior to issuing system credentials and granting system access, the entity registers and authorizes new internal and external users.",
+      "cwes": ["CWE-255", "CWE-259", "CWE-287", "CWE-288", "CWE-307", "CWE-521", "CWE-522", "CWE-798"]
+    },
+    {
+      "id": "CC6.3",
+      "title": "Role-Based Access",
+      "description": "The entity authorizes, modifies, or removes access to data, software, functions, and other protected information assets based on roles.",
+      "cwes": ["CWE-250", "CWE-269", "CWE-276", "CWE-284", "CWE-285", "CWE-732", "CWE-862"]
+    },
+    {
+      "id": "CC6.6",
+      "title": "Security Measures Against Threats Outside System Boundaries",
+      "description": "The entity implements boundary protection and network monitoring.",
+      "cwes": ["CWE-79", "CWE-89", "CWE-918", "CWE-352", "CWE-611"]
+    },
+    {
+      "id": "CC6.7",
+      "title": "Transmission Data Protection",
+      "description": "The entity restricts the transmission, movement, and removal of information to authorized users and processes.",
+      "cwes": ["CWE-311", "CWE-319", "CWE-326", "CWE-327", "CWE-523"]
+    },
+    {
+      "id": "CC7.1",
+      "title": "Detection and Monitoring of Security Events",
+      "description": "The entity uses detection and monitoring procedures to identify anomalies and vulnerabilities.",
+      "cwes": ["CWE-117", "CWE-223", "CWE-532", "CWE-778"]
+    },
+    {
+      "id": "CC7.2",
+      "title": "Monitoring System Components for Anomalies",
+      "description": "The entity monitors system components for anomalies indicative of malicious acts or natural disasters.",
+      "cwes": ["CWE-1035", "CWE-1104"]
+    },
+    {
+      "id": "CC8.1",
+      "title": "Change Management",
+      "description": "The entity authorizes, designs, develops, configures, documents, tests, approves, and implements changes.",
+      "cwes": ["CWE-16", "CWE-276", "CWE-732"]
+    }
+  ]
+}

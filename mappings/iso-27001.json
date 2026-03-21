@@ -1,0 +1,72 @@
+{
+  "framework": "ISO/IEC 27001",
+  "version": "2022",
+  "source": "https://www.iso.org/standard/27001",
+  "controls": [
+    {
+      "id": "A.5.15",
+      "title": "Access Control",
+      "cwes": ["CWE-250", "CWE-269", "CWE-276", "CWE-284", "CWE-285", "CWE-732", "CWE-862", "CWE-863"]
+    },
+    {
+      "id": "A.5.17",
+      "title": "Authentication Information",
+      "cwes": ["CWE-255", "CWE-259", "CWE-287", "CWE-307", "CWE-521", "CWE-522", "CWE-798"]
+    },
+    {
+      "id": "A.8.4",
+      "title": "Access to Source Code",
+      "cwes": ["CWE-200", "CWE-538", "CWE-540", "CWE-552"]
+    },
+    {
+      "id": "A.8.7",
+      "title": "Protection Against Malware",
+      "cwes": ["CWE-94", "CWE-434", "CWE-502", "CWE-506", "CWE-829"]
+    },
+    {
+      "id": "A.8.9",
+      "title": "Configuration Management",
+      "cwes": ["CWE-2", "CWE-16", "CWE-260", "CWE-276", "CWE-732"]
+    },
+    {
+      "id": "A.8.12",
+      "title": "Data Leakage Prevention",
+      "cwes": ["CWE-200", "CWE-201", "CWE-209", "CWE-312", "CWE-319", "CWE-497", "CWE-532"]
+    },
+    {
+      "id": "A.8.20",
+      "title": "Network Security",
+      "cwes": ["CWE-311", "CWE-319", "CWE-523"]
+    },
+    {
+      "id": "A.8.24",
+      "title": "Use of Cryptography",
+      "cwes": ["CWE-261", "CWE-310", "CWE-326", "CWE-327", "CWE-328", "CWE-330", "CWE-338", "CWE-780"]
+    },
+    {
+      "id": "A.8.25",
+      "title": "Secure Development Life Cycle",
+      "cwes": ["CWE-20", "CWE-78", "CWE-79", "CWE-89", "CWE-94", "CWE-434", "CWE-502", "CWE-611", "CWE-918"]
+    },
+    {
+      "id": "A.8.26",
+      "title": "Application Security Requirements",
+      "cwes": ["CWE-20", "CWE-79", "CWE-89", "CWE-352", "CWE-434", "CWE-918"]
+    },
+    {
+      "id": "A.8.28",
+      "title": "Secure Coding",
+      "cwes": ["CWE-20", "CWE-22", "CWE-77", "CWE-78", "CWE-79", "CWE-89", "CWE-90", "CWE-94", "CWE-116", "CWE-352", "CWE-434", "CWE-502", "CWE-611", "CWE-643", "CWE-798", "CWE-917", "CWE-918"]
+    },
+    {
+      "id": "A.8.29",
+      "title": "Security Testing in Development and Acceptance",
+      "cwes": ["CWE-1035", "CWE-1104"]
+    },
+    {
+      "id": "A.8.15",
+      "title": "Logging",
+      "cwes": ["CWE-117", "CWE-223", "CWE-532", "CWE-778"]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "framework": "HIPAA",
+  "version": "Current",
+  "source": "https://www.hhs.gov/hipaa/",
+  "controls": [
+    {
+      "id": "164.312(a)(1)",
+      "title": "Access Control — Technical Safeguards",
+      "description": "Implement technical policies and procedures for computing systems that maintain ePHI to allow access only to authorized persons.",
+      "cwes": ["CWE-250", "CWE-269", "CWE-276", "CWE-284", "CWE-285", "CWE-287", "CWE-306", "CWE-639", "CWE-732", "CWE-862", "CWE-863"]
+    },
+    {
+      "id": "164.312(a)(2)(i)",
+      "title": "Unique User Identification",
+      "description": "Assign a unique name and/or number for identifying and tracking user identity.",
+      "cwes": ["CWE-287", "CWE-306", "CWE-307"]
+    },
+    {
+      "id": "164.312(a)(2)(iv)",
+      "title": "Encryption and Decryption",
+      "description": "Implement a mechanism to encrypt and decrypt ePHI.",
+      "cwes": ["CWE-311", "CWE-312", "CWE-326", "CWE-327"]
+    },
+    {
+      "id": "164.312(c)(1)",
+      "title": "Integrity — Technical Safeguards",
+      "description": "Implement policies and procedures to protect ePHI from improper alteration or destruction.",
+      "cwes": ["CWE-20", "CWE-78", "CWE-79", "CWE-89", "CWE-345", "CWE-352", "CWE-502"]
+    },
+    {
+      "id": "164.312(d)",
+      "title": "Person or Entity Authentication",
+      "description": "Implement procedures to verify that a person or entity seeking access to ePHI is the one claimed.",
+      "cwes": ["CWE-255", "CWE-287", "CWE-290", "CWE-294", "CWE-307", "CWE-521", "CWE-522", "CWE-798"]
+    },
+    {
+      "id": "164.312(e)(1)",
+      "title": "Transmission Security",
+      "description": "Implement technical security measures to guard against unauthorized access to ePHI transmitted over a network.",
+      "cwes": ["CWE-311", "CWE-319", "CWE-326", "CWE-327", "CWE-523"]
+    },
+    {
+      "id": "164.312(e)(2)(ii)",
+      "title": "Encryption",
+      "description": "Implement a mechanism to encrypt ePHI whenever deemed appropriate.",
+      "cwes": ["CWE-311", "CWE-319", "CWE-326", "CWE-327"]
+    },
+    {
+      "id": "164.308(a)(1)(ii)(D)",
+      "title": "Information System Activity Review",
+      "description": "Implement procedures to regularly review records of information system activity.",
+      "cwes": ["CWE-117", "CWE-223", "CWE-532", "CWE-778"]
+    },
+    {
+      "id": "164.308(a)(5)(ii)(B)",
+      "title": "Protection from Malicious Software",
+      "description": "Procedures for guarding against, detecting, and reporting malicious software.",
+      "cwes": ["CWE-94", "CWE-434", "CWE-502", "CWE-829"]
+    }
+  ]
+}
